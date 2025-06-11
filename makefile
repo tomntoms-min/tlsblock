@@ -14,7 +14,7 @@ LDFLAGS = -lpcap
 TARGET = tls-block
 
 # 컴파일할 소스 코드 파일의 목록입니다. (지금은 하나입니다)
-SRCS = tls-block.cpp
+SRCS = main.cpp
 
 # SRCS 목록의 .cpp 확장자를 .o (오브젝트 파일)로 바꾼 목록을 생성합니다.
 OBJS = $(SRCS:.cpp=.o)
